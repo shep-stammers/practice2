@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+
+
+/* Asterisk wildcard selector to override default styles added by the browser */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* ------------------- General --*/
+
+h1, h2, h3 {
+    font-family: 'Dancing Script', sans-serif;
+    letter-spacing: 2px;
+    color: #252525;
+}
+
+
+h1{
+    font-size: 250%;
+    margin: 20px;
+    font-weight: 800;
+}
+
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url("../images/bamboo.jpeg") no-repeat center center/cover;
+    position: relative;
+}
+
+/* ------------------- Header --*/
+
+header {
+    background-color: rgb(75, 206, 75);
+    color: black;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+header a {
+    color: inherit;
+}
+
+#menu{
+    font-size: 100%;
+    color: black;
+    letter-spacing: 4px;
+    list-style-type: none;
+}
+
+ul{
+    display: flex;
+}
+
+li{
+    padding: 10px;
+}
+
+
+/* ------------------- Footer --*/
+
+footer{
+    background-color: rgb(75, 206, 75);
+    display: flex;
+
+}
+
+.footer-contacts{
+    display: flex;
+    margin: 30px;
+}
+
+.footer-contacts h4{
+    font-size: 120%;
+}
+
+.footer-contacts p{
+    padding: 4px;
+    font-size: 110%;
+    font-weight: 400;
+}
+
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;   
+    }
+    
+    #social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #3a3a3a;
+    }
